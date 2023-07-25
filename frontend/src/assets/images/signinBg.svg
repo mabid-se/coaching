@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 964 216">
+  <defs>
+    <linearGradient id="pattern-b" x1="94.2%" x2="-3.5%" y1="45.2%" y2="53.8%">
+      <stop offset="0%" stop-color="#5E1DE1"/>
+      <stop offset="100%" stop-color="#8E41FF"/>
+      <stop offset="100%" stop-color="#8E41FF"/>
+    </linearGradient>
+    <linearGradient id="pattern-c" x1="60.7%" x2="-2.9%" y1="53.4%" y2="47.9%">
+      <stop offset="0%" stop-color="#5E1DE1"/>
+      <stop offset="100%" stop-color="#8E41FF"/>
+      <stop offset="100%" stop-color="#8E41FF"/>
+    </linearGradient>
+    <linearGradient id="pattern-e" x1="49.2%" x2="-2.9%" y1="48.2%" y2="47.8%">
+      <stop offset="0%" stop-color="#5E1DE1"/>
+      <stop offset="100%" stop-color="#8E41FF"/>
+      <stop offset="100%" stop-color="#8E41FF"/>
+    </linearGradient>
+    <path id="pattern-a" d="M0 0h964v216H0z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="pattern-d" fill="#fff">
+      <use xlink:href="#pattern-a"/>
+    </mask>
+    <use fill="url(#pattern-b)" xlink:href="#pattern-a"/>
+    <path fill="url(#pattern-c)" d="M0 0h964C743-8 543 9 362 49 181 90 60 146 0 216V0z" mask="url(#pattern-d)"/>
+    <path fill="url(#pattern-e)" d="M0 0h964C693-14 467-1 286 40 105 80 10 139 0 216V0z" mask="url(#pattern-d)"/>
+    <g mask="url(#pattern-d)" opacity=".5">
+      <path fill="url(#pattern-c)" d="M0 6h964c-221-8-421 9-602 49C181 96 60 152 0 222V6z" transform="rotate(-180 482 111)"/>
+      <path fill="url(#pattern-e)" d="M0 6h964C693-8 467 5 286 46 105 86 10 145 0 222V6z" transform="rotate(-180 482 111)"/>
+    </g>
+  </g>
+</svg>
